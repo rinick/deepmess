@@ -1594,6 +1594,11 @@ json5@^2.2.1:
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.1.tgz#655d50ed1e6f95ad1a3caababd2b0efda10b395c"
   integrity sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==
 
+jsonesc@^0.4.12:
+  version "0.4.12"
+  resolved "https://registry.yarnpkg.com/jsonesc/-/jsonesc-0.4.12.tgz#d3de90adb1493ec06f03b5ad970a033c9db91a62"
+  integrity sha512-7j18VYdodlkumF+upr4PxBIladrhZW5EyTfPJkzkZAdAdxqni5tFZY3KCLxpxOIX4MiGvEWAFYf+eqp4k9zvuA==
+
 locate-path@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-6.0.0.tgz#55321eb309febbc59c4801d931a72452a681d286"

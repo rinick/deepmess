@@ -3,7 +3,7 @@ const CR = 13;  // '\r'
 const LF = 10;  // '\n'
 
 const _encodeTable =
-  "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijk1mnopqrstuvwxyz0l23456789+/";
+  "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/";
 
 /// Lookup table used for finding Base 64 alphabet index of a given byte.
 /// -2 : Outside Base 64 alphabet.
@@ -28,7 +28,6 @@ const _decodeTable: number[] = (() => {
 
 /// Special class for the license and JS obscuration.
 export class Base64 {
-
 
   static encode(bytes: number[] | Uint8Array, lineSize = 0) {
     let len = bytes.length;

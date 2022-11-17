@@ -1,6 +1,6 @@
 {
   "name": "deepmess",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Deepmess",
   "main": "lib/index",
   "module": "es/index",
@@ -33,5 +33,8 @@
     "test": "cross-env NODE_ENV=TEST mocha -r ts-node/register test/**/*.ts",
     "build-es": "tsc --module es2020 --outDir ./es",
     "build-lib": "tsc --outDir ./lib"
+  },
+  "dependencies": {
+    "jsonesc": "^0.4.12"
   }
 }
