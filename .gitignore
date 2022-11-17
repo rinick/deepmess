@@ -1,0 +1,29 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Dependency directory
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+.nyc_output
+/.idea
+/.vscode/tasks.json
+/.vscode/launch.json
+build
+/src/**/*.js
+*.js.map
+/temp
+/.cache
+/es
+/lib
